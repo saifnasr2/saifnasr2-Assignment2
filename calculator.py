@@ -1,5 +1,14 @@
-def inputs(num1 , num2 , operator):
+def calculate(num1 , num2 , operator):
     pass
+
+
+def HandleDivisionByZero(n , op):
+    if (n == 0) and (op == "/"):
+        raise ZeroDivisionError
+    
+
+
+
 
 
 while True:
